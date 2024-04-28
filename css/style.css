@@ -1,0 +1,279 @@
+@import url("../fonts/font.css");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+}
+
+html {
+  font-size: 16px;
+  font-family: "Comfortaa";
+  font-weight: 700;
+  color: black;
+}
+
+
+
+
+
+
+.container{
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  max-width: calc(1120px + 4rem);
+  position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+.flex{
+  display: flex;
+}
+
+#inputsSection{
+  max-width: calc(400px + 2rem);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+
+} 
+
+
+.input-style{
+  width: 100%;
+  max-width: 200px;
+  min-height: 40px;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 14px;
+  box-shadow: none;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.button-style {
+  margin-top: 10px;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f1dfb8;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.button-style:hover {
+  background-color: #f0cf87;
+}
+
+.button-style:focus {
+  outline: none;
+}
+
+.button-style:active {
+  background-color: #e3c173;
+  box-shadow: none;
+}
+
+.stats{
+  display: flex;
+  justify-content: space-between;
+}
+
+.stats-component{
+  display: flex;
+}
+
+.stats-component div p{
+  margin-right: 10px;
+  margin-bottom: 10px;
+} 
+
+
+#mainSection .container{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.mainH2{
+  margin-bottom: 20px;
+  font-size: 34px;
+  text-align: center;
+}
+
+.img-div{
+  display: flex;
+  justify-content: center;
+}
+
+
+img{
+  width: 100%;
+  max-width: 1000px;
+
+}
+
+
+
+
+.circle{
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 40px ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+.pos-rel{
+  position: relative;
+}
+
+
+.purpose{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 70px;
+}
+
+.purpose-name{
+  margin-bottom: 31px;
+}
+
+.purpose-circle{
+  margin-bottom: 10px;
+}
+
+
+.purpose-item{
+  display: flex;
+  align-items: center;
+}
+
+.imp-circle{
+  margin-top: 4px;
+  margin-left: 40px;
+}
+
+.table-chakra tr td, .table-chakra  tr th{
+  padding: 7px 20px;
+  font-size: 20px;
+  text-align: center;
+  border: 2px solid #bca88d;
+}
+
+
+.table-chakra{
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  border-collapse: collapse;
+}
+
+.imp-td{
+  padding-left: 3px !important;
+  text-align: start !important;
+}
+
+
+.tr-default{
+  background-color: #d9cdbe;
+}
+
+.tr-energy7{
+  background-color: #d175f1;
+}
+
+.tr-energy6{
+  background-color: #7595f1;
+}
+
+.tr-energy5{
+  background-color: #75d3f1;
+}
+
+.tr-energy4{
+  background-color: #95f175;
+}
+
+.tr-energy3{
+  background-color: #e7f175;
+}
+
+.tr-energy2{
+  background-color: #f1a275;
+}
+
+.tr-energy1{
+  background-color: #f17575;
+}
+
+#table-years tr td{
+  padding: 7px 20px;
+  font-size: 16px;
+  text-align: center;
+  border: 2px solid #bca88d;
+  
+}
+
+#table-years{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+
+.year-column{
+  background-color: #d9cdbe;
+}
+
+
+.for-energy-div{
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+
+.for-energy-div p{
+  padding-bottom: 20px;
+}
+
+.for-energy-div h2{
+  text-align: center;
+  padding-bottom: 20px;
+}
