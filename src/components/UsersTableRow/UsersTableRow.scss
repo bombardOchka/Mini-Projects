@@ -1,0 +1,21 @@
+
+.highlighted-row {
+  background-color: #f1f1f1; 
+}
+
+tr td {
+  padding: 8px 12px;
+}
+
+button {
+  background-color: #007bff; 
+  color: #fff; 
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #0056b3; 
+}

@@ -4,22 +4,33 @@ import React from 'react';
 import { createRoot } from 'react-dom/client';
 
 
-import { TodoList } from './containers/todoList/todoList.jsx'
+import { UsersTable } from './containers/UsersTable/UsersTable.jsx'
+
+import { store } from './store.js'
+import { Provider } from "react-redux";
 
 
 
 
 
-class App extends React.Component {
-    constructor() {
-        super();
-    }
 
-    render() {
-        return (
-            <TodoList />
-        )
-    }
+
+
+
+
+
+
+
+const App = () => {
+
+    return (
+        <>
+            <Provider store={store}>
+                <UsersTable />
+            </Provider>
+        </>
+    )
+
 }
 
 
