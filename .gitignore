@@ -8,3 +8,6 @@ package-lock.json
 
 # Environment variables, never commit this file
 .env
+
+#video
+video.mp4
